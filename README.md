@@ -1,4 +1,4 @@
 # CapacitanciaJS
-Calculo de capacitancia en javascrip,html y CSS
+Calculo de capacitancia de un banco trifasico de capacitores hecho en javascript,html y CSS
 
 https://fernandosaldivar.com/projects/CapacitanciaJS/
