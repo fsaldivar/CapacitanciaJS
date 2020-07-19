@@ -3,35 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>Calculo de Capacitancia</title>
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript"  src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@700&family=Josefin+Sans&family=Lato:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
+    <h1>Capacitores en Estrella</h1>
 
+    <p class="entradas">
+    <section class="entradas">
     <label>Introduce los kVAr: </label>
-    <input type="number" id="kVAr" name="kVAr" >
+    <input type="number" id="kVAr" name="kVAr" size="8" value="75">
     <label> kVAr</label>
     <br>
 
     <label>Introduce el Voltaje de Linea: </label>
-    <input type="number" id="vL" name="vL" >
+    <input type="number" id="vL" name="vL" size="3" value="220">
     <label>Volts</label>
     <br>
 
     <label>Introduce la frecuencia: </label>
-    <input type="number" id="frec" name="frec" >
+    <input type="number" id="frec" name="frec"  size="4" value="60">
     <label>Hz</label>
     <br>
 
-    <button onclick="calculos()" id="Submit">Enviar</button>
+    <button onclick="calculos()" id="Submit">Calcular</button>
+    </section>
+    </p>
 
 
+    <p class="imgcap" class="centerimg  ">
+    <section class="imgcap">
+      <img src="https://fernandosaldivar.com/wp-content/uploads/2020/07/capacitancia.png" alt="">
+    </section>
+    </p>
+
+
+
+<p class="resultados">
+    <section class="resultados">
+      <h2>Resultados</h2>
     <label id="resultados"></label><br>
     <label id="resultados1"></label><br>
     <label id="resultados2"></label><br>
     <label id="resultados3"></label><br>
     <label id="resultados4"></label><br>
-
-
+    </section>
+</p>
 
 
 

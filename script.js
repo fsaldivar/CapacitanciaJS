@@ -11,7 +11,7 @@ function calculos(){
   var qt= document.getElementById("kVAr").value;
   var vl=document.getElementById("vL").value;
   var f=document.getElementById("frec").value;
-  alert("ya entre a la funcion")
+
   qt=parseFloat(qt).toFixed(2);
   vl=parseFloat(vl).toFixed(2);
   f=parseFloat(f).toFixed(2);
@@ -25,7 +25,7 @@ function calculos(){
   console.log("Capacitancia por fase:"+ financial(cf)+ " μF");
   var cl=(1/(2*Math.PI*f*(xc/1000000)))/2;
   console.log("Capacitancia por linea: "+ financial(cl) + " μF" );
-  alert("ya  hice los calculos")
+
   //document.write("<p>");
   //document.write("El Voltaje de fase es: " + "<strong>" + financial(vf) + "</strong>" +" V"+ "<br/>");
   //document.write("La Corriente de linea es: " + "<strong>" + financial(il) + "</strong>" +" A"+ "<br/>");
